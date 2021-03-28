@@ -4,6 +4,7 @@ import "./Rate.css";
 const Rate = ({ starIndex, rating }) => {
   const stars = (x) => {
     let starArray = [];
+    console.log(x);
     for (let i = 1; i <= 5; i++) {
       if (i <= x) {
         starArray.push(
@@ -29,6 +30,7 @@ const Rate = ({ starIndex, rating }) => {
         );
       }
     }
+    console.log(starArray);
     return starArray;
   };
 
