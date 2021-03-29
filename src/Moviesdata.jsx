@@ -7,6 +7,7 @@ export const moviesData = [
         date: '2019',
         description:
           'The surviving members of the resistance face the First Order once again',
+        trailer : 'https://www.youtube.com/watch?v=sC97WobcNXc'
       },
       {
         id: Math.random(),
@@ -16,6 +17,7 @@ export const moviesData = [
         date: '2018',
         description:
           'The Avengers and their allies must be willing to sacrifice all in an attempt to defeat the powerful Thanos.',
+        trailer : 'https://www.youtube.com/watch?v=gpdNZ8ECkfs',
       },
       {
         id: Math.random(),
@@ -25,6 +27,7 @@ export const moviesData = [
         date: '2019',
         description:
           'Anna, Elsa, Kristoff, Olaf and Sven leave Arendelle to travel to an ancient, autumn-bound forest of an enchanted land.',
+        trailer : 'https://www.youtube.com/watch?v=0uQwp2qn9cQ',
       },
       {
         id: Math.random(),
@@ -35,6 +38,8 @@ export const moviesData = [
         date: '2016',
         description:
           "The adventures of writer Newt Scamander in New York's secret community of wizards",
+        trailer : 'https://www.youtube.com/watch?v=0uQwp2qn9cQ',
+
       },
       {
         id: Math.random(),
@@ -45,6 +50,8 @@ export const moviesData = [
         date: '2014',
         description:
           "A team of explorers travel through a wormhole in space in an attempt to ensure humanity's survival.",
+        trailer : 'https://www.youtube.com/watch?v=0uQwp2qn9cQ',
+
       },
       {
         id: Math.random(),
@@ -55,5 +62,7 @@ export const moviesData = [
         date: '2014',
         description:
           'A vengeful fairy curses an infant princess, but that child may be the one person who can restore peace to their troubled land.',
+        trailer : 'https://www.youtube.com/watch?v=0uQwp2qn9cQ',
+
       },
   ];

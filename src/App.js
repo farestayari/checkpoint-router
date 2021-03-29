@@ -4,6 +4,8 @@ import { MoviesList } from "./MoviesList/MoviesList";
 import { SearchMovie } from "./searchMovie/searchMovie";
 import {moviesData} from "./Moviesdata";
 import { AddMovie } from "./AddMovie/AddMovie";
+import { Movie } from "./Movie/Movie";
+
 
 const App = () => {
   const [moviesList, setMoviesList] = useState(moviesData);
@@ -28,7 +30,6 @@ const App = () => {
         ratingSearch={ratingSearch}
         nameSearch={nameSearch}
       />
-
       <div className="addmovie">
         <AddMovie addMovie={addMovie} />
       </div>
