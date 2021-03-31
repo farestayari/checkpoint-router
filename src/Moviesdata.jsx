@@ -1,6 +1,6 @@
 export const moviesData = [
     {
-        id: Math.random(),
+        id: 1,
         image: 'https://image.tmdb.org/t/p/w500/db32LaOibwEliAmSL2jjDF6oDdj.jpg',
         rating: 5,
         name: 'Star Wars: The Rise Of Skywalker',
@@ -10,7 +10,7 @@ export const moviesData = [
         trailer : 'https://www.youtube.com/watch?v=sC97WobcNXc'
       },
       {
-        id: Math.random(),
+        id: 2,
         image: 'https://image.tmdb.org/t/p/w500/7WsyChQLEftFiDOVTGkv3hFpyyt.jpg',
         rating: 4,
         name: 'Avengers: Infinity War',
@@ -20,7 +20,7 @@ export const moviesData = [
         trailer : 'https://www.youtube.com/watch?v=gpdNZ8ECkfs',
       },
       {
-        id: Math.random(),
+        id: 3,
         image: 'https://image.tmdb.org/t/p/w500/pjeMs3yqRmFL3giJy4PMXWZTTPa.jpg',
         rating: 5,
         name: 'Frozen II',
@@ -30,7 +30,7 @@ export const moviesData = [
         trailer : 'https://www.youtube.com/watch?v=0uQwp2qn9cQ',
       },
       {
-        id: Math.random(),
+        id: 4,
         image:
           'https://images-na.ssl-images-amazon.com/images/I/51oDs32SXlL._AC_.jpg',
         rating: 2,
@@ -42,7 +42,7 @@ export const moviesData = [
 
       },
       {
-        id: Math.random(),
+        id: 5,
         image:
           'https://i.ibb.co/FDGqCmM/papers-co-ag74-interstellar-wide-space-film-movie-art-33-iphone6-wallpaper.jpg',
         rating: 3,
@@ -54,7 +54,7 @@ export const moviesData = [
 
       },
       {
-        id: Math.random(),
+        id: 6,
         image:
           'https://i.pinimg.com/736x/02/26/ef/0226efc19731cd6eb998e0dd01d70b8d.jpg',
         rating: 4,
